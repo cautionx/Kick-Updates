@@ -1,0 +1,26 @@
+{
+  "name": "kickapp",
+  "version": "1.0.0",
+  "description": "Kick application for kick.com",
+  "main": "Bot.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon Bot.js"
+  },
+  "keywords": [
+    "kick",
+    "streaming"
+  ],
+  "author": "dark",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "quick.db": "^9.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
